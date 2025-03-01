@@ -33,6 +33,7 @@ function adicionarHobbie(){
     if (listaDeHobbies.length <3){
         let passatempo = document.querySelector("#hobbies").value;
         listaDeHobbies.push(passatempo);
+        console.log(listaDeHobbies);
         limparNome();
     } else {
         alert("Seus 3 hobbies já foram definidos. São eles: "+listaDeHobbies);
